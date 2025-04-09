@@ -1,0 +1,20 @@
+[project]
+title = "Preswald Project"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project-805285"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Preswald Project"
+logo = "images/compressed/avacado_image_compressed.jpg"
+favicon = "images/compressed/favicon_compressed.ico"
+primaryColor = "#F89613"
+
+[data.avocado]
+type = "csv"
+path = "data/avocado.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
